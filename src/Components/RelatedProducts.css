@@ -1,0 +1,60 @@
+.relatedProducts {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.relatedProducts h1 {
+    color: #171717;
+    font-size: 3.12rem;
+    font-weight: 600;
+}
+.relatedProducts hr {
+    height: 4px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #252525;
+}
+.relatedProducts-item {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 775.9px) {
+    .relatedProducts {
+        height: auto;
+    }
+    .relatedProducts h1 {
+        font-size: 2rem;
+    }
+    .relatedProducts hr {
+        height: 3px;
+        width: 150px;
+    }
+    .relatedProducts-item {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 433.9px) {
+    .relatedProducts {
+        height: auto;
+        margin-top: 40px;
+    }
+    .relatedProducts h1 {
+        font-size: 1.75rem;
+    }
+    .relatedProducts hr {
+        height: 3px;
+        width: 125px;
+    }
+    .relatedProducts-item {
+        row-gap: 40px;
+        margin-top: 40px;
+    }
+}

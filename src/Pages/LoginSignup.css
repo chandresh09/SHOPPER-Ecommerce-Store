@@ -1,0 +1,110 @@
+.loginsignup {
+    height: auto;
+    width: 100%;
+    background-color: #fce3fe;
+    padding: 40px;
+    margin-top: 75px;
+}
+.loginsignup-container {
+    height: auto;
+    width: 560px;
+    background-color: #fff;
+    margin: auto;
+    padding: 40px 50px;
+}
+.loginsignup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+.loginsignup-form input {
+    height: 60px;
+    width: 100%;
+    color: #5c5c5c;
+    font-size: 1.12rem;
+    padding-left: 20px;
+    border: 1px solid #e9e9e9;
+    outline: none;
+}
+.loginsignup-container button {
+    height: 60px;
+    width: 100%;
+    color: #fff;
+    background-color: #ff4141;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}
+.loginsignup-loginref {
+    color: #5c5c5c;
+    font-size: 1.02rem;
+    font-weight: 500;
+    margin-top: 35px;
+}
+.loginsignup-loginref span {
+    color: #ff4141;
+    font-weight: 600;
+}
+.loginsignup-agree {
+    color: #5c5c5c;
+    font-size: 1.02rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+
+@media screen and (max-width: 775.9px) {
+    .loginsignup {
+        margin-top: 65px;
+    }
+    .loginsignup-container {
+        width: 550px;
+    }
+    .loginsignup-form {
+        gap: 25px;
+    }
+    .loginsignup-form input {
+        height: 55px;
+    }
+    .loginsignup-container button {
+        height: 55px;
+        font-size: 1.2rem;
+    }
+    .loginsignup-loginref {
+        font-size: 1.02rem;
+        margin-top: 35px;
+    }
+}
+
+
+@media screen and (max-width: 443.9px) {
+    .loginsignup {
+        padding: 40px 0;
+        margin-top: 65px;
+    }
+    .loginsignup-container {
+        width: 85%;
+        padding: 30px;
+    }
+    .loginsignup-form {
+        gap: 25px;
+    }
+    .loginsignup-form input {
+        height: 45px;
+        font-size: 1rem;
+    }
+    .loginsignup-container button {
+        height: 45px;
+        font-size: 1.05rem;
+    }
+    .loginsignup-loginref {
+        font-size: 1.02rem;
+    }
+}
